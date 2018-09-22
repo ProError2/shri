@@ -1,0 +1,334 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+
+.row{
+max-width:1140px;
+margin:0 auto;
+}
+
+
+
+
+body
+{
+	font-family:times roman;
+	
+}
+.GLAMUP
+{   
+    position:absolute;
+	margin-left: 50;
+    margin-right: 50;
+    top: 50%;
+    right: 50%;
+	
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(IMG/1.jpg);
+	background-position:center;
+	background-size:cover;
+	height:100vh;
+	background-attachment:fixed;
+	
+}
+h2
+{
+	color:white;
+	
+}
+ .main-nav
+{
+	list-style:none;
+	float:right;
+	margin-top:66px;
+}
+
+ .main-nav li
+{
+	display: inline-block;
+	margin-left:20px;
+}
+
+ .main-nav li 
+ {
+	color: white; 
+	text-decoration: none;
+	font-size: 90%;
+	font-weight:bold;
+	 
+ }
+ 
+ .main-nav li:hover
+ {
+	 color:yellow;
+	 border-bottom:2px solid yellow;
+	 transition:all 0.5s ease-in;
+	 padding:15px 0;
+ }
+  .btn
+  {
+	 border:1px solid #e67e22; 
+	 padding:3px 20px;
+	 color:yellow;
+	 text-decoration: none;
+	 border-radius:12px;
+	 margin-right:20px;
+	 
+	 
+  }
+
+  .button awesome
+  {
+	  background-color:yellow;
+	  top-margin:40px;
+  }
+  
+   .btn 
+   {
+	  background-color:#8c8c22!important;
+	  color:white!important;
+	  
+   }
+    
+	
+	.btn full
+	
+	{
+		background-color:black;
+		color:white;
+	    transition:all 0.5s ease-in;	
+	}
+	
+     .copy
+	 {
+		 width:70%;
+		 margin-left:15%;
+		  margin-bottom:5%;
+	 }
+	 
+	 h3:after
+	 {
+		 width:100px;
+		 height:2px;
+		 background-color:yellow;
+		 display:block;
+		 content:" ";
+		 margin: 0 auto;
+		 margin-top:20px;
+	 }
+	 
+	 .features h3
+	 {
+		 margin-top:99px;
+	 }
+	 
+	 
+	 .arranging
+	 {
+		 text-align:justify;
+	 }
+	 
+	 
+	 .meal-showcase
+	 {
+		 list-style:none;
+		 width:100%;
+		
+	 }
+	  
+	  .meal-showcase li
+	  {
+		  display:block;
+		  width:25%;
+		  float:left;
+		  
+		  
+	  }
+	  
+	  .meal-photo
+	  {
+		  width:100%;
+		  margin:0%;
+		  overflow:hidden!important;
+		  
+	  }
+	  
+	  .meal-photo img
+	  
+	  {
+		width:100%;
+		height:auto;
+		transform: scale(1.15)!important;
+		transition:all(1.5s)!important;
+		
+	  }
+	  
+      .meal-photo img:hover 
+      {
+	   transform:scale(2.05)!important;
+			  
+	  }
+	  
+	  .meal
+	  {
+		  
+	  margin-top:50px;
+	  
+	   
+	  }
+	  
+	  .pic img
+	  {
+		  width:40%;
+		  margin-left:50%;
+		      height: 400px;
+    width: 400;
+	margin-left:50px;
+	margin-top:20px;
+	
+	  }
+	  
+	  .work-step
+	  {
+		  margin-top:50px;
+		  
+		  margin-left:50px;
+	  }
+	  
+	  .work-step div
+	  {
+		  
+		  border:1px solid yellow;
+		  display:inline-block;
+		  border-radius:50%;
+		  height:50px;
+		  width:50px;
+		  text-align:center;
+		  line-height:50px;
+	  }
+	  
+	  .work-step img
+	  {
+		  
+		  height:70px;
+		  margin-right:20px;
+		  margin-top:20px;
+		  
+	  }
+	  
+	  .cities
+	  {
+		  margin-top:100px;
+		  
+	  }
+	  
+	  
+	  .cities img
+	  {
+		  width:100%;
+		  margin-top:50px;
+		  
+	  }
+	  
+	  .cities i
+	  {
+		  color:yellow:
+		  
+	  }
+	  
+	  .testimonials
+	  {
+		  margin-top:80px;
+		  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(img/111.jpg);
+		  padding-top:80px;
+		  padding-bottom:60px;
+		  color:white;
+		  background-attachment:fixed;
+		  
+		  
+	  }
+	  
+	  .testimonials p
+	  {
+		  color:white;
+		  text-align:justify;
+		  line-height:25px;
+		  margin-top:40px;
+		  
+	  }
+	  
+	  
+	  
+	  
+	  
+	  .testimonials cite img
+	  {
+		  border-radius:50%;
+		  width:50px;
+		  height:50px;
+		  margin-right:10px;
+		  
+		  
+	  }
+	  
+	  
+	  
+	   .btn-block
+	  {
+		  background-color:yellow;
+		  color:#fff;
+		  border-radius:4px;
+		  margin-top:20px;
+		  
+	  }
+	  
+	  .gap
+	  {
+		 margin-top:40px; 
+	  }
+	  
+	  .form
+	  {
+		  margin-top:40px;
+		  margin-right:80px;
+		  
+	  }
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
